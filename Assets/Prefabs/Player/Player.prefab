@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 5915115743131314491}
   - component: {fileID: 5915115743131314489}
   - component: {fileID: 5915115743131314492}
-  - component: {fileID: 1903515353977935228}
+  - component: {fileID: 2596369994773352150}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -265,7 +265,7 @@ MonoBehaviour:
   MoveSpeed: 75
   JumpSpeed: 20
   raycastingPoint: {fileID: 5915115743918749148}
-  rayLength: 0.6
+  rayLength: 0.8
   GFX: {fileID: 5915115742183944034}
   animator: {fileID: 8231295440923228430}
   audioPlayer: {fileID: 8177207713022919811}
@@ -299,13 +299,13 @@ MonoBehaviour:
   grappleMask:
     serializedVersion: 2
     m_Bits: 64
-  grappleLength: 15
+  grappleLength: 8
   generateCollisions: {fileID: 0}
   GunHolder: {fileID: 5915115744041573176}
   Gun: {fileID: 5915115742909263587}
   audioPlayer: {fileID: 8177207713022919811}
---- !u!61 &1903515353977935228
-BoxCollider2D:
+--- !u!70 &2596369994773352150
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -317,19 +317,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0071725845, y: -0.34828806}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.4454594, y: 1.6797419}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0, y: -0.34532976}
+  m_Size: {x: 1.4444733, y: 1.6906595}
+  m_Direction: 0
 --- !u!1 &5915115743918749151
 GameObject:
   m_ObjectHideFlags: 0
