@@ -4692,6 +4692,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2140599317}
     - target: {fileID: 5915115743131314492, guid: 7ec87b603f246a044b57ffbf8129bf80, type: 3}
+      propertyPath: grappleLength
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5915115743131314492, guid: 7ec87b603f246a044b57ffbf8129bf80, type: 3}
       propertyPath: generateCollisions
       value: 
       objectReference: {fileID: 2140599321}
