@@ -198,11 +198,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5915115743131314439}
-  - component: {fileID: 5915115743131314494}
   - component: {fileID: 5915115743131314436}
   - component: {fileID: 5915115743131314491}
   - component: {fileID: 5915115743131314489}
   - component: {fileID: 5915115743131314492}
+  - component: {fileID: 1903515353977935228}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -229,22 +229,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &5915115743131314494
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5915115743131314433}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0076828003, y: -0.34225225}
-  m_Size: {x: 1.4444885, y: 1.6747065}
-  m_Direction: 0
 --- !u!50 &5915115743131314436
 Rigidbody2D:
   serializedVersion: 4
@@ -281,7 +265,7 @@ MonoBehaviour:
   MoveSpeed: 75
   JumpSpeed: 20
   raycastingPoint: {fileID: 5915115743918749148}
-  rayLength: 0.3
+  rayLength: 0.6
   GFX: {fileID: 5915115742183944034}
   animator: {fileID: 8231295440923228430}
   audioPlayer: {fileID: 8177207713022919811}
@@ -320,6 +304,32 @@ MonoBehaviour:
   GunHolder: {fileID: 5915115744041573176}
   Gun: {fileID: 5915115742909263587}
   audioPlayer: {fileID: 8177207713022919811}
+--- !u!61 &1903515353977935228
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5915115743131314433}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0071725845, y: -0.34828806}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4454594, y: 1.6797419}
+  m_EdgeRadius: 0
 --- !u!1 &5915115743918749151
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,7 +354,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5915115743918749151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.122, z: 0}
+  m_LocalPosition: {x: 0, y: -1.115, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -375,7 +385,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5915115744041573176}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.39999962, z: 0}
+  m_LocalPosition: {x: 0.086, y: -0.39999962, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
