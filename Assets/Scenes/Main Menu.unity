@@ -835,8 +835,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -203}
-  m_SizeDelta: {x: 852.2109, y: 171.5833}
+  m_AnchoredPosition: {x: 0.000030518, y: -267}
+  m_SizeDelta: {x: 1003.466, y: 202.037}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1851813459
 MonoBehaviour:
@@ -858,17 +858,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Leap Link
+  m_text: 'GraPplE PLumBer '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e7e0f4d57dcadf84aad1fdc1b00bc158, type: 2}
-  m_sharedMaterial: {fileID: -4546732031935130471, guid: e7e0f4d57dcadf84aad1fdc1b00bc158, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c71a771f39981e54d9d0b587d596fdff, type: 2}
+  m_sharedMaterial: {fileID: 6141191420818002207, guid: c71a771f39981e54d9d0b587d596fdff, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -885,7 +885,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 180
+  m_fontSize: 134.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
