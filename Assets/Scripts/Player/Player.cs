@@ -100,7 +100,8 @@ public class Player : MonoBehaviour
         {
             Destroy(collision.gameObject);
             incrementCoins();
-            Instantiate(collectedSoundPrefab, Vector3.zero, Quaternion.identity);
+            GameObject CoinSound = Instantiate(collectedSoundPrefab, Vector3.zero, Quaternion.identity);
+            Destroy(CoinSound, 1f);
 
         }
 
