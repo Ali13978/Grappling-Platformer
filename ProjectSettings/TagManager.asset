@@ -8,6 +8,7 @@ TagManager:
   - Spikes
   - Portal
   - door
+  - player
   layers:
   - Default
   - TransparentFX
