@@ -1785,6 +1785,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4411839855270653666, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
+      propertyPath: m_Color.b
+      value: 0.3798505
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411839855270653666, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
+      propertyPath: m_Color.g
+      value: 0.3798505
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411839855270653666, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8301887
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411839855270653676, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4411839855691850626, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
       propertyPath: m_Name
       value: Canvas

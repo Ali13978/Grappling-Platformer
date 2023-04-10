@@ -1382,6 +1382,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4411839855270653666, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
+      propertyPath: m_Color.b
+      value: 0.33681917
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411839855270653666, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
+      propertyPath: m_Color.g
+      value: 0.33681917
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411839855270653666, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8207547
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411839855270653676, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411839855527621418, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4411839855691850626, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -1473,6 +1493,18 @@ PrefabInstance:
     - target: {fileID: 4411839855711340610, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
       propertyPath: m_text
       value: 'Level Number: 03'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411839855711340610, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
+      propertyPath: m_fontSize
+      value: 67.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411839855810896636, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411839856031808979, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1708d5cc68a6c394d97f06f45103afc1, type: 3}
