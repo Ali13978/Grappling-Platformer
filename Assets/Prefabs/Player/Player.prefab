@@ -304,6 +304,7 @@ MonoBehaviour:
   GunHolder: {fileID: 5915115744041573176}
   Gun: {fileID: 5915115742909263587}
   audioPlayer: {fileID: 8177207713022919811}
+  BoomEffect: {fileID: 7572387236809344517, guid: 0618ad39bcf8d12479de356f0029f974, type: 3}
 --- !u!70 &2596369994773352150
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

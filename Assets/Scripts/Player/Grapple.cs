@@ -18,6 +18,7 @@ public class Grapple : MonoBehaviour
     [SerializeField] PlayerAudioPlayer audioPlayer;
 
     private LineRenderer lineRenderer;
+    [SerializeField] GameObject BoomEffect;
 
     private void Start()
     {
@@ -57,13 +58,19 @@ public class Grapple : MonoBehaviour
                     bridgeLine.GetComponent<EdgeCollider2D>().enabled = false;
                     firstClick = false;
 
-                    followPlayer = true;                   
+                    followPlayer = true;
+                    
+                    GameObject effect = Instantiate(BoomEffect, hitPoint, Quaternion.identity);
+                    Destroy(effect, 0.5f);
                 }
                 else
                 {
                     firstClick = true;
                     followPlayer =false;
                     bridgeLine.SetPosition(0, hitPoint);
+
+                    GameObject effect = Instantiate(BoomEffect, hitPoint, Quaternion.identity);
+                    Destroy(effect, 0.5f);
 
                     bridgeLine.GetComponent<EdgeCollider2D>().enabled = true;
                     generateCollisions.Generate();
