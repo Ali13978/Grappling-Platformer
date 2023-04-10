@@ -24,7 +24,7 @@ public class GameUI : MonoBehaviour
     [SerializeField] GameObject WinPannel;
     [SerializeField] TMP_Text WinCoinsTxt;
 
-
+    public int NoOfCoinsToUnlock;
     private void Start()
     {
         AllPannelOff();
@@ -42,6 +42,12 @@ public class GameUI : MonoBehaviour
     public void UpdateCoinsText(int coins)
     {
         coinsText.text = "Coins: " + coins;
+        if(coins == NoOfCoinsToUnlock)
+        {
+            GameObject[] doors = GameObject.FindGameObjectsWithTag("door");
+            foreach (GameObject door in doors)
+                GameObject.Destroy(door);
+        }
     }
 
     //Death-pannel

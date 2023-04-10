@@ -857,6 +857,7 @@ MonoBehaviour:
   DeathCoinsTxt: {fileID: 4411839856031808979}
   WinPannel: {fileID: 4411839855527621418}
   WinCoinsTxt: {fileID: 4411839855497120474}
+  NoOfCoinsToUnlock: 22
 --- !u!1 &4411839855697497330
 GameObject:
   m_ObjectHideFlags: 0
@@ -1056,7 +1057,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Level Number: 01'
+  m_text: 'Level Number: 02'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e7e0f4d57dcadf84aad1fdc1b00bc158, type: 2}
   m_sharedMaterial: {fileID: -4546732031935130471, guid: e7e0f4d57dcadf84aad1fdc1b00bc158, type: 2}
@@ -1083,7 +1084,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69.9
+  m_fontSize: 67.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
