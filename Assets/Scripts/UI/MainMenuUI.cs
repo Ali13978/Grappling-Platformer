@@ -5,12 +5,13 @@ using UnityEngine;
 public class MainMenuUI : MonoBehaviour
 {
     private void Start()
-    {
-        
+    {        
+
     }
     public void StartButton()
     {
         SceneManagement.instance.StartGame();
+        BackgroundMusic.instance.LoadinGameMusic();
     }
     public void ExitButton()
     {

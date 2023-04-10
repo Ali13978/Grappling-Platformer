@@ -19,6 +19,7 @@ public class SceneManagement : MonoBehaviour
     public void LoadMainmenu()
     {
         SceneManager.LoadScene(0);
+        BackgroundMusic.instance.LoadMainMenuMusicClip();
     }
 
     public void ExitGame()
